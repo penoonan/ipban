@@ -1,0 +1,20 @@
+{
+    "name": "pno/IpBan",
+    "description": "StackPHP compatible class for banning IPs",
+    "keywords": ["ipban", "stack", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Noonan",
+            "email": "p.e.noonan@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "~2.1",
+        "symfony/http-kernel": "~2.1"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "minimum-stability": "dev"
+}
