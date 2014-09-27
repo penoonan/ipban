@@ -1,4 +1,4 @@
-IpBan
+#IpBan
 
 IpBan is a [StackPHP](http://www.stackphp.com) middleware for banning IP addresses to an application.
 
