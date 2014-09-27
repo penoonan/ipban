@@ -15,7 +15,7 @@ Just pass an array containing any banned IPs into the class constructor. Here is
     $app = $stack->resolve($app);
 ```
 
-By default, IpBan returns a Symfony 403 Response with the message "Your IP has been bannded." To change that, just pass in a different Response object:
+By default, IpBan returns a Symfony 403 Response with the message "Your IP has been banned." To change that, just pass in a different Response object:
  
  ```php
      $response = new Symfony\Component\HttpFoundation\Response('banned! trololololol :P', 403);
